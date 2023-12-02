@@ -3,7 +3,7 @@ import requests
 
 model = "pplx-70b-online"
 url = "https://api.perplexity.ai/chat/completions"
-PPX_API_KEY = st.secrets["PPX_API_KEY"]
+PPX_API_KEY = st.secrets["api_key"]
 
 def get_content(content):
     payload = {
